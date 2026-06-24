@@ -168,13 +168,12 @@
                 </details>
             </div>
         </section>
-    </main>
-    <!-- Video -->
-    <section>
-        <header>
-            <h2>Video</h2>
-        </header>
-        <video 
+        <!-- Video -->
+        <section>
+            <header>
+                <h2>Video</h2>
+            </header>
+            <video 
             src="https://intranet-projects-files.s3.amazonaws.com/webstack/BigBuckBunny.mp4" 
             controls 
             loop
@@ -188,13 +187,13 @@
             <h2>Audio</h2>
         </header>
         <audio 
-            src="https://intranet-projects-files.s3.amazonaws.com/webstack/TroubleChapter8_64kb.mp3"
-            controls>
-            Sorry, your browser doesn't support audio element
-        </audio>
+        controls>
+        <source src="https://intranet-projects-files.s3.amazonaws.com/webstack/TroubleChapter8_64kb.mp3">
+        Sorry, your browser doesn't support audio element
+    </audio>
     </section>
     <!-- Iframe -->
-     <section>
+    <section>
         <header>
             <h2>Iframe</h2>
         </header>
@@ -204,10 +203,11 @@
             title="Holberton School"
             width="350px"
             height="200px">
-                Holberton Sally
+            Holberton Sally
             </iframe>
         </div>
-     </section>
+    </section>
+</main>
     <footer></footer>
 </body>
 </html>
